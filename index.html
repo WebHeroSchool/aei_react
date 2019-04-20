@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My first react TODO</title>
+</head>
+<body>
+
+<div id="app"></div>
+
+<script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+
+<script>
+    const appTitle = React.createElement(
+        "h1",
+        null,
+        "Hello, I'm APP title."
+    );
+
+    ReactDOM.render(appTitle, document.body.querySelector('#app'));
+
+</script>
+</body>
+</html>
